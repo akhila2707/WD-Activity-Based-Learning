@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fffaf0;
+    color: #422c29;
+}
+nav {
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd354b;
+}
+nav a {
+    color: #422c29;
+    text-decoration: none;
+    margin-left: 15px;
+}
+nav a:hover { color: #bd354b; }
+
+.hero {
+    background: linear-gradient(120deg, #f9e4b7, #f8dce1);
+    padding: 55px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.hero h1 {
+    font-size: 43px;
+    line-height: 1.2;
+}
+.hero h1 span { color: #bd354b; }
+.hero p { line-height: 1.8; max-width: 430px; }
+.cake-art {
+    font-size: 100px;
+    padding: 25px;
+    background: #fffaf0;
+    border-radius: 50%;
+    box-shadow: 10px 10px 0 #e9c88b;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #bd354b;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #842638;
+    transform: scale(1.05);
+}
+section { padding: 35px 6%; }
+h2 {
+    text-align: center;
+    font-size: 29px;
+}
+.subtitle {
+    text-align: center;
+    color: #886d63;
+    margin-bottom: 28px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+.card {
+    background: white;
+    width: 250px;
+    text-align: center;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px #eadfd1;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px #dfc9c0;
+}
+.product-art {
+    padding: 22px;
+    font-size: 60px;
+}
+.pink { background: #f8dce1; }
+.yellow { background: #f9e9bd; }
+.green { background: #dcebd8; }
+.details { padding: 18px; }
+.details h3 { color: #a52e42; }
+.details p { line-height: 1.5; }
+.price {
+    font-size: 21px;
+    font-weight: bold;
+    color: #bd354b;
+}
+.about {
+    margin: 5px 7% 35px;
+    padding: 28px;
+    background: #f8dce1;
+    border-radius: 18px;
+    text-align: center;
+}
+footer {
+    background: #422c29;
+    color: white;
+    padding: 22px;
+    text-align: center;
+}
+footer p { line-height: 1.7; }
+
+@media (max-width: 600px) {
+    .hero h1 { font-size: 34px; }
+    .hero { justify-content: center; text-align: center; }
+    nav { justify-content: center; }
+    nav a { margin: 5px; }
+}

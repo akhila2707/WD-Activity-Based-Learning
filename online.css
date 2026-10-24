@@ -1,0 +1,95 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #172b4d; background: #f7f9ff; }
+nav {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 8%; background: white;
+}
+.logo { font-size: 25px; font-weight: bold; color: #3157d5; }
+nav a { text-decoration: none; color: #344563; margin-left: 18px; }
+.hero {
+    padding: 65px 8%; display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: space-between; gap: 25px;
+    background: linear-gradient(120deg, #e3edff, #f1edff);
+}
+.hero h1 { font-size: 43px; margin: 12px 0; }
+.hero h1 span { color: #3157d5; }
+.hero p { line-height: 1.8; max-width: 440px; color: #53627c; }
+.art {
+    background: white; padding: 35px; border-radius: 30px;
+    text-align: center; font-size: 75px;
+    box-shadow: 12px 12px 0 #ccd9ff;
+}
+.btn {
+    display: inline-block; background: #3157d5; color: white;
+    text-decoration: none; padding: 13px 22px;
+    border-radius: 10px; margin-top: 10px;
+}
+section { padding: 35px 8%; }
+h2 { text-align: center; }
+.courses { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
+.card {
+    width: 260px; background: white; border-radius: 18px;
+    overflow: hidden; box-shadow: 0 6px 22px #e0e6f2; transition: .3s;
+}
+.card:hover { transform: translateY(-7px); }
+.picture { text-align: center; padding: 28px; font-size: 48px; }
+.one { background: #e2ebff; }
+.two { background: #fff0db; }
+.three { background: #e0f6ed; }
+.info { padding: 20px; }
+.info h3 { margin-top: 0; }
+.info p { color: #68768d; line-height: 1.6; }
+.info a { color: #3157d5; text-decoration: none; font-weight: bold; }
+.banner {
+    margin: 10px 8% 35px; padding: 25px; text-align: center;
+    background: #172b4d; color: white; border-radius: 18px;
+}
+footer { text-align: center; padding: 20px; color: #64748b; }
+/* Extra Sections */
+.benefits {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 6px 22px #e0e6f2;
+}
+
+.benefits p {
+    padding: 8px;
+    color: #3157d5;
+    font-size: 16px;
+}
+
+.extra {
+    text-align: center;
+}
+
+.review {
+    border: 2px solid #e3eaff;
+}
+
+.join {
+    margin: 20px 8% 35px;
+    padding: 35px 20px;
+    text-align: center;
+    background: linear-gradient(120deg, #dce7ff, #eee4ff);
+    border-radius: 18px;
+}
+
+.join h2 {
+    color: #3157d5;
+}
+
+.join p {
+    color: #53627c;
+    line-height: 1.8;
+}
+
+.join .btn {
+    margin-top: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
