@@ -1,5 +1,4 @@
 # WD-Activity-Based-Learning
-# WEB DEVELOPMENT – ACTIVITY-BASED LEARNING
 
 ## Student Details
 
